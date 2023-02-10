@@ -1,0 +1,50 @@
+#m {
+ width:1280px;
+ margin:0 auto;
+}
+
+.KOL {
+ width:200px;
+ margin-right:16px;
+ margin-bottom:16px;
+ background:#FFFFE5;
+ overflow:hidden;
+ white-space: nowrap;
+ padding-left:4px; padding-right:4px;
+ padding-bottom:4px;
+ position:relative;
+}
+
+.KOL:nth-child(6n+0) {
+ margin-right:0;
+}
+
+.KOL img {
+ max-width:200px;
+ max-height:160px;
+}
+
+.icon1 {
+ position:absolute;
+ left:168px;
+ top:4px;
+ width:28px;
+ height:28px;
+ border:solid 1px gray;
+ border-radius:4px;
+ background-color:rgba(0,0,0,0.2);
+}
+.icon1  img, .icon2 img{
+ width:24px;
+ height:24px;
+}
+.icon2 {
+ position:absolute;
+ left:168px;
+ top:35px;
+ width:28px;
+ height:28px;
+ border:solid 1px gray;
+ border-radius:4px;
+ background-color:rgba(0,0,0,0.2);
+}
