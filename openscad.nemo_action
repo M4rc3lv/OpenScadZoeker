@@ -1,0 +1,11 @@
+#Hier neer zetten: ~/.local/share/nemo/actions
+[Nemo Action]
+Name=OpenScad-zoeker
+Comment=Vind alle OpenScad-bestanden
+Quote=double
+Exec=xdg-open http://localhost:8083/index.php?path=%F
+Selection = s
+Extensions=dir;
+Icon-Name=system-search-symbolic
+
+
